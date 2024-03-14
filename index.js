@@ -59,9 +59,9 @@ server.on("upgrade", (req, socket, head) => {
 });
 
 server.on("listening", () => {
-  console.log(`Doge Unblocker has sucessfully started!\nListening on localhost (Port 1234).`);
+  console.log(`Doge Unblocker has sucessfully started!\nListening on localhost (Port 8000).`);
 });
 
 server.listen({
-  port: 1234,
+  port: 8000,
 });
